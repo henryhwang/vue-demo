@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to my Vue.js App on Cloudflare pages!"/>
+  <HelloWorld msg="Welcome to my Vue.js App on Cloudflare pages!!!"/>
 </template>
 
 <script>

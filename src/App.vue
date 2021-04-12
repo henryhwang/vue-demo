@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to my Vue.js App on GITHUB pages">
+  <HelloWorld msg="Welcome to my Vue.js App on GITHUB pages"></HelloWorld>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'

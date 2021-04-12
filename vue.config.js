@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/vue-demo/'
+    publicPath: process.env.for_github_pages === 'yes' ? '/vue-demo/' : '/'
 }

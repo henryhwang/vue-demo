@@ -16,3 +16,5 @@ jobs:
         git --work-tree dist add --all
         git --work-tree dist commit -m "Deploy"
         git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages --force
+      env:
+        for_github_pages: "yes"

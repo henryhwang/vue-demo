@@ -1,15 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to my Vue.js App on Cloudflare pages!!!"/>
+  <Tasks :tasks="this.tasks" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Tasks from './components/Tasks.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Tasks
+  },
+  data() {
+    return {
+      tasks: []
+    }
+  },
+  created: function() {
+    this.tasks = [{
+      id: 1,
+      title: "Task 1"
+    }, {
+      id: 2,
+      title: "Task 2"
+    }, {
+      id: 3,
+      title: "Task 3"
+    }]
   }
 }
 </script>
